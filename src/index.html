@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>Running in Metro Austin</title>
+      <link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet'>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/main.css">
+      <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+  <div class="container-fluid mainframe">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4 col-md-3 sidebar closed">
+        <nav>
+          <h1>
+            <i class="glyphicon glyphicon-remove sidebar-close float-right" title="Hide Navigation"></i>
+            <span class="run">RUN METRO AUSTIN</span>
+          </h1>
+            <input id="filter-location-input" type="search" title="Filter Locations" placeholder="Where do you like to run?"
+            data-bind="textInput: filterLocation, valueUpdate: 'afterkeydown'">
+            <ul class="marker-list" data-bind="foreach: filteredLocations">
+                <li class="marker-list-item" data-bind="text: title, click:$parent.markerOnClick"></li>
+            </ul>
+        </nav>
+        <ul class="icons">
+          <li>
+          <a href="https://www.linkedin/in/cmandersen/"><img src="img/linkedin.png" alt="LinkedIn" style="width:30px;height:30px;border:0;"></a>
+          </li>
+          <li>
+          <a href="https://www.github.com/andchad262"><img src="img/github.png" alt="GitHub" style="width:30px;height:30px;border:0;"></a>
+          </li>
+    </div>
+        <div class="col-xs-12 col-sm-8 col-md-9 padding-0">
+          <i class="glyphicon glyphicon-menu-hamburger sidebar-open" title="Show Navigation"></i>
+          <div id="map"></div>
+
+    </div>
+  </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src='js/knockout-3.4.2.js'></script>
+<script src="js/locations.js"></script>
+<script src="js/mapStyles.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
