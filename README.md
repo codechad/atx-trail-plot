@@ -22,7 +22,7 @@ Map color design was created using Snazzy Maps http://www.snazzymaps.com
 http://www.cssminizer.com
 
 # Bootstrap
-Bootstrap v4.1.3 http://getbootstrap.com
+Bootstrap v4.3.1 http://getbootstrap.com
 
 # NPM Installation
 To install all of the dependencies execute the following command in node -
