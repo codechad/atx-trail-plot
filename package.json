@@ -32,6 +32,8 @@
     "jquery": "^3.4.0",
     "knockout": "^3.5.0",
     "lodash": "^4.17.14",
+    "lodash.mergewith": "^4.6.2",
+    "lodash.template": "^4.5.0",
     "popper.js": "^1.15.0",
     "tar": "^4.4.10"
   }
