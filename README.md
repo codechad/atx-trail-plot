@@ -12,6 +12,8 @@ and the KnockoutJS file sourced from http://knockout.js and the files were saved
 
 Foursquare API at http://www.foursquare.com/developers/app
 
+Google Maps API https://developers.google.com/maps/documentation/javascript/get-api-key
+
 Map color created using Snazzy Maps http://www.snazzymaps.com
 
 CSS Minimizer http://www.cssminizer.com
